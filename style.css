@@ -435,17 +435,12 @@ strong{
 	margin-left:100px;
 	margin-bottom:20px;
 }
-
-#profilimg{
-	height:100px;
-	width:auto;
-	margin-left:100px;
-}
-#profil{
-	margin-top:10px;
+.team{
+	max-width:80%
 }
 .teama{
 	margin-bottom:300px;
+	max-width:80%
 }
 }
 
@@ -469,6 +464,12 @@ strong{
 	height:200px;
 	width:20%;
 	padding-right:200px;
+}
+.team{
+	max-width:60%
+}
+.teama{
+	max-width:60%
 }
 }
 
