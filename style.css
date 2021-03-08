@@ -2,16 +2,13 @@
 *{ 
 	margin: 0; 
 	padding: 0; 
-	box-sizing:0; 
-	border-box:0; }
+	box-sizing: border-box; }
 
-main{
-	margin-bottom:100px;
-}
+
 
 h1{
 	text-align: center;
-	color: #313131
+	color: #313131;
 	font-weight: 10px;
 	font-family: serif;
 	font-size: 10px;
@@ -126,11 +123,6 @@ a:hover{
 	padding-top:10px;
 }
 
-.saved{
-	padding-bottom:30px;
-	margin-top:0px;
-	padding-top:0px;
-}
 #save{
 	padding-left: 20px;
 	padding-top:20px;
@@ -150,10 +142,17 @@ a:hover{
 .your{
 	padding:0px;
 	padding-top:20px;
+	padding-left:50px;
 	text-align:left;
 	clear:both;
 }
-
+.youra{
+	padding:0px;
+	padding-top:20px;
+	padding-left:50px;
+	text-align:left;
+	clear:both;
+}
 #build{
 	float:right;
 	font-size:50%;
@@ -167,19 +166,14 @@ a:hover{
 	height:50px
 }
 
-#buildimga{
-	float:left;
-	border-radius: 50%;
-	height:50px
-}
-
-#buildimgb{
-	float:left;
-	border-radius: 50%;
-	height:50px
-}
-
 .team{
+	padding:0px;
+	padding-top:20px;
+	text-align:left;
+	clear:both;
+}
+
+.teama{
 	padding:0px;
 	padding-top:20px;
 	text-align:left;
@@ -304,11 +298,7 @@ a:hover{
 footer{
 	background-color:#CAD9DA;
 	text-align: center;
-	position: absolute;
 	margin:30px auto 0px auto;
-	bottom: 0;
-	left: 0;
-	right: 0;
 	height:30px;
 }
 
@@ -322,5 +312,163 @@ footer{
 	height: 30px;
 }
 
+@media screen and (min-width: 768px) { 
 
-@media screen and (min-width: 640px) { }
+
+h1{
+	font-size:20px;
+	padding-top:30px;
+}
+
+h2{
+	font-size:20px;
+}
+h3{
+	font-size:20px;
+}
+p{
+	font-size:17px;
+}
+#logo{
+	height:80px;
+	width:auto;
+}
+.navbar{
+	height:100px;
+}
+.navbar a{
+	font-size:100%;
+}
+.title{
+	height:80px;
+}
+.paragraph-left{
+	padding-left:100px;
+}
+#ampoule{
+	height:150px;
+	padding-right:100px;
+}
+#douche{
+	height:300px;
+	padding-left:200px;
+	padding-right:100px;
+}
+#discover{
+	margin-top:50px;
+}
+#donationimg{
+	margin-top: 50px;
+	height:200px;
+	padding-right:50px;
+}
+#don{
+	padding-top:100px;
+}
+#btn-blue{
+	height:20px;
+	width:100px;
+	font-size:100%;
+	padding-bottom:45px;
+}
+#insta{
+	height:20px;
+}
+footer{
+	margin:60px auto 0px auto;
+	height:100px;
+	padding-top:25px;
+}
+
+#normalimg{
+	height:200px;
+}
+#normal{
+	padding-top:25px;
+}
+#systemimg{
+	height:300px;
+}
+#system{
+	padding-top:100px;
+	margin-top:50px;
+}
+#protecttext{
+	padding-top:50px;
+	padding-left:250px;
+}
+#btn-grey{
+	height:20px;
+	width:100px;
+	font-size:15px;
+	padding-bottom:27px;
+}
+#save{
+	height:175px;
+	margin-right:100px;
+}
+#saveimg{
+	padding-top:50px;
+	margin-left:50px;
+	margin-right:400px;
+
+}
+#btn-pink{
+	height:20px;
+	width:100px;
+	font-size:15px;
+	padding-bottom:27px;
+}
+.your{
+	margin-top:50px;
+	}
+}
+.youra{
+	margin-bottom:425px;
+}
+strong{
+	font-size:20px;
+}
+
+#buildimg{
+	height:75px;
+	margin-left:100px;
+	margin-bottom:20px;
+}
+
+#profilimg{
+	height:100px;
+	width:auto;
+	margin-left:100px;
+}
+#profil{
+	margin-top:10px;
+}
+.teama{
+	margin-bottom:300px;
+}
+}
+
+@media screen and (min-width: 960px) { 
+ #ampoule{
+ 	height:200px;
+ }
+
+ #donationimg{
+	margin-top: 50px;
+	height:300px;
+	padding-right:50px;
+}
+#buildimg{
+	height:100px;
+	margin-left:300px;
+	margin-bottom:20px;
+}
+#profilimg{
+	float:left;
+	height:200px;
+	width:20%;
+	padding-right:200px;
+}
+}
+
