@@ -176,6 +176,7 @@ a:hover{
 .teama{
 	padding:0px;
 	padding-top:20px;
+	margin-bottom:50px;
 	text-align:left;
 	clear:both;
 }
@@ -298,7 +299,7 @@ a:hover{
 footer{
 	background-color:#CAD9DA;
 	text-align: center;
-	margin:30px auto 0px auto;
+	margin:50px auto 0px auto;
 	height:30px;
 }
 
@@ -423,15 +424,15 @@ footer{
 }
 .your{
 	margin-top:50px;
-	}
+
 }
 .youra{
 	margin-bottom:425px;
 }
 
 #buildimg{
-	height:50px;
-	margin-left:10px;
+	height:75px;
+	margin-left:100px;
 	margin-bottom:20px;
 }
 
@@ -442,6 +443,7 @@ footer{
 }
 #profil{
 	margin-top:10px;
+	mar
 }
 .teama{
 	margin-bottom:300px;
@@ -463,8 +465,8 @@ footer{
 	padding-right:50px;
 }
 #buildimg{
-	height:300px;
-	margin-left:300px;
+	height:100px;
+	margin-left:100px;
 	margin-bottom:20px;
 }
 #profilimg{
