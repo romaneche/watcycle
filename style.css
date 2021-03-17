@@ -454,6 +454,9 @@ footer{
 
 @media screen and (min-width: 960px) { 
  
+ h3{
+ 	text-align:left;
+ }
  img{
  	height:150%;
  }
