@@ -149,6 +149,7 @@ a:hover{
 .youra{
 	padding:0px;
 	padding-top:20px;
+	padding-bottom:20px;
 	padding-left:20px;
 	text-align:left;
 	clear:both;
@@ -163,7 +164,7 @@ a:hover{
 #buildimg{
 	float:left;
 	border-radius: 50%;
-	height:50px
+	height:30px
 }
 
 .team{
@@ -176,7 +177,7 @@ a:hover{
 .teama{
 	padding:0px;
 	padding-top:20px;
-	margin-bottom:50px;
+	padding-bottom:20px;
 	text-align:left;
 	clear:both;
 }
@@ -190,8 +191,8 @@ a:hover{
 
 #profilimg{
 	float:left;
-	height:auto;
-	width:20%;
+	margin-left:20px;
+	height:50px;
 }
 
 
@@ -437,9 +438,10 @@ footer{
 }
 
 #profilimg{
-	height:70px;
+	height:80px;
 	width:auto;
-	margin-left:10px;
+	margin-left:50px;
+	margin-top:10px;
 }
 #profil{
 	margin-top:10px;
@@ -460,7 +462,7 @@ footer{
  }
 
  #donationimg{
-	margin-top: 50px;
+	margin-top: 0px;
 	height:300px;
 	padding-right:50px;
 }
@@ -471,9 +473,10 @@ footer{
 }
 #profilimg{
 	float:left;
-	height:200px;
-	width:20%;
-	padding-right:200px;
+	height:150px;
+	width:auto;
+	padding-right:10px;
+	padding-left:50px;
 }
 }
 
