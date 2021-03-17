@@ -142,14 +142,14 @@ a:hover{
 .your{
 	padding:0px;
 	padding-top:20px;
-	padding-left:50px;
+	padding-left:20px;
 	text-align:left;
 	clear:both;
 }
 .youra{
 	padding:0px;
 	padding-top:20px;
-	padding-left:50px;
+	padding-left:20px;
 	text-align:left;
 	clear:both;
 }
@@ -329,6 +329,8 @@ h3{
 p{
 	font-size:17px;
 }
+
+
 #logo{
 	height:80px;
 	width:auto;
@@ -426,25 +428,31 @@ footer{
 .youra{
 	margin-bottom:425px;
 }
-strong{
-	font-size:20px;
-}
 
 #buildimg{
-	height:75px;
-	margin-left:100px;
+	height:50px;
+	margin-left:10px;
 	margin-bottom:20px;
 }
-.team{
-	max-width:80%
+
+#profilimg{
+	height:70px;
+	width:auto;
+	margin-left:10px;
+}
+#profil{
+	margin-top:10px;
 }
 .teama{
 	margin-bottom:300px;
-	max-width:80%
 }
 }
 
 @media screen and (min-width: 960px) { 
+ 
+ img{
+ 	height:150%;
+ }
  #ampoule{
  	height:200px;
  }
@@ -455,7 +463,7 @@ strong{
 	padding-right:50px;
 }
 #buildimg{
-	height:150px;
+	height:300px;
 	margin-left:300px;
 	margin-bottom:20px;
 }
@@ -464,12 +472,6 @@ strong{
 	height:200px;
 	width:20%;
 	padding-right:200px;
-}
-.team{
-	max-width:60%
-}
-.teama{
-	max-width:60%
 }
 }
 
